@@ -1,6 +1,6 @@
-# practice
+# minivines
 
-practice
+Minivines -  A repica-try of TikTok.
 
 ## Getting Started
 
