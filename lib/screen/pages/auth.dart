@@ -56,7 +56,7 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                     RaisedButton(onPressed: () {
-                      Navigator.push(
+                      Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(builder: (context) => HomeScreen()),
                       );
