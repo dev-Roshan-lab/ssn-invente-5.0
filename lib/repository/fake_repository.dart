@@ -112,8 +112,8 @@ class FakeRepository {
     "https://images.unsplash.com/photo-1519865700419-cd4ed4e9d9f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
   ];
   static List videos = [
-    'assets/videos/intro.mp4',
     'assets/videos/next1.mp4',
+    'assets/videos/intro.mp4',
     'assets/videos/next2.mp4',
   ];
 }
