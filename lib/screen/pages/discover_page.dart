@@ -25,28 +25,28 @@ class DiscoverPage extends StatelessWidget {
                     _buildCarouselSlider(sizingInformation),
                     SizedBox(height: 15),
                     _buildTrendHeading(sizingInformation,
-                        title: "Travel Diaries", descrition: "Trending"),
+                        title: "Travel Diaries", description: "Trending"),
                     SizedBox(
                       height: 10,
                     ),
                     _buildListView(),
                     SizedBox(height: 20),
                     _buildTrendHeading(sizingInformation,
-                        title: "PetFam", descrition: "Trending"),
+                        title: "PetFam", description: "Trending"),
                     SizedBox(
                       height: 10,
                     ),
                     _buildCandids(),
                     SizedBox(height: 20),
                     _buildTrendHeading(sizingInformation,
-                        title: "Abstract", descrition: "Trending"),
+                        title: "Abstract", description: "Trending"),
                     SizedBox(
                       height: 10,
                     ),
                     _buildAbstract(),
                     SizedBox(height: 20),
                     _buildTrendHeading(sizingInformation,
-                        title: "Architecture", descrition: "Trending"),
+                        title: "Architecture", description: "Trending"),
                     SizedBox(
                       height: 10,
                     ),
@@ -55,7 +55,7 @@ class DiscoverPage extends StatelessWidget {
                       height: 10,
                     ),
                     _buildTrendHeading(sizingInformation,
-                        title: "Couple Goals", descrition: "Trending"),
+                        title: "Couple Goals", description: "Trending"),
                     SizedBox(
                       height: 10,
                     ),
@@ -64,7 +64,7 @@ class DiscoverPage extends StatelessWidget {
                       height: 10,
                     ),
                     _buildTrendHeading(sizingInformation,
-                        title: "Candids", descrition: "Trending"),
+                        title: "Candids", description: "Trending"),
                     SizedBox(
                       height: 10,
                     ),
@@ -181,7 +181,7 @@ class DiscoverPage extends StatelessWidget {
   }
 
   Container _buildTrendHeading(SizingInformation sizingInformation,
-      {String title, String descrition, String range}) {
+      {String title, String description, String range}) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 10),
       child: Row(
@@ -231,7 +231,7 @@ class DiscoverPage extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.only(top: 2, left: 2.0),
-                  child: Text(descrition),
+                  child: Text(description),
                 ),
               ],
             ),

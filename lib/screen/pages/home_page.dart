@@ -16,8 +16,6 @@ class _HomePageState extends State<HomePage>
   VideoPlayerController _videoPlayerController;
   bool _isPlaying = true;
   int _followingForYouController = 0;
-  TextStyle _followingForYouStyle =
-      TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.w500);
   int _index = 0;
   AnimationController _animationController;
   bool isLiked = false;
