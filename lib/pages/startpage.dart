@@ -64,7 +64,7 @@ class _StartScreenState extends State<StartScreen> {
 
   callback() {
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) {
-      return MyHomePage();
+      return Home();
     }));
   }
 
