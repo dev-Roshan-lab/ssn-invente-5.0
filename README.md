@@ -1,6 +1,6 @@
 # minivines
 
-Minivines -  A repica-try of TikTok.
+Minivines -  A replica of TikTok, that dosent care about you.
 
 ## Getting Started
 
